@@ -17,6 +17,8 @@ function increaseRankBy(n) {
 function deepestChild() {
   const grand = document.getElementById('grand-node').querySelectorAll('div')
 
+  function find(grand, criteriaFn) {
+
   let current = grand
   let next = []
 
@@ -35,4 +37,5 @@ function deepestChild() {
     current = next.shift()
   }
   return current;
+}
 }
