@@ -3,5 +3,5 @@ function getFirstSelector(selector) {
 }
 
 function nestedTarget() {
-  document.querySelector(div.nested div)
+  document.getElementById('nested').querySelectorAll(div.target)
 }
