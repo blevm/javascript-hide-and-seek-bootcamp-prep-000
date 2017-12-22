@@ -36,4 +36,3 @@ function deepestChild() {
   }
   return current;
 }
-}
